@@ -1,0 +1,113 @@
+/* 
+    Version: 1.0
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* Table */
+.table_full{
+    width: 100%;
+}
+table tr th{
+    text-align: left;
+    border-bottom: 1px solid black ;
+    padding: 1%;
+
+}
+table tr td{
+    
+    padding: 2% 0;
+}
+
+/* Button */
+.btn-primary{
+    text-decoration: none;
+    color: #fffbfb;
+    border: 1px solid blue;
+    background-color: rgb(0, 145, 249);
+    border-radius: 3px;
+    padding: 6px;
+}
+.btn-primary:hover{
+    background-color : rgb(70, 88, 222);
+}
+.btn-danger{
+    text-decoration: none;
+    color: #f8f8f8;
+    border: 1px solid rgb(25, 25, 28);
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 6px;
+}
+.btn-danger:hover{
+    background-color : rgb(231, 111, 104);
+}
+
+.btn-secondary{
+    text-decoration: none;
+    color: #0d0d0d;
+    border: 1px solid rgb(19, 19, 19);
+    background-color: rgb(121, 240, 119);
+    border-radius: 3px;
+    padding: 6px;
+}
+.btn-secondary:hover{
+    background-color : rgb(43, 255, 0);
+}
+
+/* Menu CSS*/
+.menu{
+    border: 1px solid gray;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(247, 26, 26);
+}
+.menu ul li a:hover{
+    color: black;
+}
+/* Main Content CSS */
+.main-content{
+    background-color: #f1f2f6;
+    margin: 2%;
+    padding: 3% 0;
+}
+.col-4{
+    width: 15%;
+    background-color: white;
+    margin: 1%;
+    padding: 3%;
+    float: left;
+    text-align: center;
+}
+
+/* Footer CSS */
+.footer{
+    background-color: rgb(247, 74, 74);
+}
